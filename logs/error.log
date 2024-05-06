@@ -1,0 +1,148 @@
+2024-04-03T16:44:58.982Z - error: Error occurred during reporter init: TypeError: root path required
+    at serveStatic (C:\Users\lenovo\Desktop\test2\node_modules\serve-static\index.js:40:11)
+    at C:\Users\lenovo\Desktop\test2\node_modules\@jsreport\jsreport-express\lib\routes.js:31:88
+    at Array.forEach (<anonymous>)
+    at module.exports (C:\Users\lenovo\Desktop\test2\node_modules\@jsreport\jsreport-express\lib\routes.js:31:41)
+    at configureExpressApp (C:\Users\lenovo\Desktop\test2\node_modules\@jsreport\jsreport-express\lib\main.js:209:3)
+    at Object.<anonymous> (C:\Users\lenovo\Desktop\test2\node_modules\@jsreport\jsreport-express\lib\main.js:326:21)
+    at ListenerCollection.fire (C:\Users\lenovo\Desktop\test2\node_modules\@jsreport\jsreport-core\lib\shared\listenerCollection.js:157:32)
+    at async MainReporter.init (C:\Users\lenovo\Desktop\test2\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:264:7)
+    at async initializeJsReport (file:///C:/Users/lenovo/Desktop/test2/index.js:56:5)
+2024-04-03T17:37:23.015Z - error: Error when starting http server on port 5488 Error: listen EADDRINUSE: address already in use :::5488
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at C:\Users\lenovo\Desktop\test2\node_modules\@jsreport\jsreport-express\lib\main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (C:\Users\lenovo\Desktop\test2\node_modules\@jsreport\jsreport-express\lib\main.js:16:10)
+    at C:\Users\lenovo\Desktop\test2\node_modules\@jsreport\jsreport-express\lib\main.js:50:14
+    at Object.start (C:\Users\lenovo\Desktop\test2\node_modules\@jsreport\jsreport-express\lib\main.js:125:13)
+    at Object.<anonymous> (C:\Users\lenovo\Desktop\test2\node_modules\@jsreport\jsreport-express\lib\main.js:333:30)
+    at async ListenerCollection.fire (C:\Users\lenovo\Desktop\test2\node_modules\@jsreport\jsreport-core\lib\shared\listenerCollection.js:157:21)
+2024-04-03T17:37:23.018Z - error: Error occurred during reporter init: Error: listen EADDRINUSE: address already in use :::5488
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at C:\Users\lenovo\Desktop\test2\node_modules\@jsreport\jsreport-express\lib\main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (C:\Users\lenovo\Desktop\test2\node_modules\@jsreport\jsreport-express\lib\main.js:16:10)
+    at C:\Users\lenovo\Desktop\test2\node_modules\@jsreport\jsreport-express\lib\main.js:50:14
+    at Object.start (C:\Users\lenovo\Desktop\test2\node_modules\@jsreport\jsreport-express\lib\main.js:125:13)
+    at Object.<anonymous> (C:\Users\lenovo\Desktop\test2\node_modules\@jsreport\jsreport-express\lib\main.js:333:30)
+    at async ListenerCollection.fire (C:\Users\lenovo\Desktop\test2\node_modules\@jsreport\jsreport-core\lib\shared\listenerCollection.js:157:21)
+2024-04-03T17:38:58.658Z - error: Error when starting http server on port 5488 Error: listen EADDRINUSE: address already in use :::5488
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at C:\Users\lenovo\Desktop\test2\node_modules\@jsreport\jsreport-express\lib\main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (C:\Users\lenovo\Desktop\test2\node_modules\@jsreport\jsreport-express\lib\main.js:16:10)
+    at C:\Users\lenovo\Desktop\test2\node_modules\@jsreport\jsreport-express\lib\main.js:50:14
+    at Object.start (C:\Users\lenovo\Desktop\test2\node_modules\@jsreport\jsreport-express\lib\main.js:125:13)
+    at Object.<anonymous> (C:\Users\lenovo\Desktop\test2\node_modules\@jsreport\jsreport-express\lib\main.js:333:30)
+    at async ListenerCollection.fire (C:\Users\lenovo\Desktop\test2\node_modules\@jsreport\jsreport-core\lib\shared\listenerCollection.js:157:21)
+2024-04-03T17:38:58.660Z - error: Error occurred during reporter init: Error: listen EADDRINUSE: address already in use :::5488
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at C:\Users\lenovo\Desktop\test2\node_modules\@jsreport\jsreport-express\lib\main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (C:\Users\lenovo\Desktop\test2\node_modules\@jsreport\jsreport-express\lib\main.js:16:10)
+    at C:\Users\lenovo\Desktop\test2\node_modules\@jsreport\jsreport-express\lib\main.js:50:14
+    at Object.start (C:\Users\lenovo\Desktop\test2\node_modules\@jsreport\jsreport-express\lib\main.js:125:13)
+    at Object.<anonymous> (C:\Users\lenovo\Desktop\test2\node_modules\@jsreport\jsreport-express\lib\main.js:333:30)
+    at async ListenerCollection.fire (C:\Users\lenovo\Desktop\test2\node_modules\@jsreport\jsreport-core\lib\shared\listenerCollection.js:157:21)
+2024-04-03T17:54:45.941Z - error: Error when starting http server on port 5488 Error: listen EADDRINUSE: address already in use :::5488
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at C:\Users\lenovo\Desktop\test2\node_modules\@jsreport\jsreport-express\lib\main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (C:\Users\lenovo\Desktop\test2\node_modules\@jsreport\jsreport-express\lib\main.js:16:10)
+    at C:\Users\lenovo\Desktop\test2\node_modules\@jsreport\jsreport-express\lib\main.js:50:14
+    at Object.start (C:\Users\lenovo\Desktop\test2\node_modules\@jsreport\jsreport-express\lib\main.js:125:13)
+    at Object.<anonymous> (C:\Users\lenovo\Desktop\test2\node_modules\@jsreport\jsreport-express\lib\main.js:333:30)
+    at async ListenerCollection.fire (C:\Users\lenovo\Desktop\test2\node_modules\@jsreport\jsreport-core\lib\shared\listenerCollection.js:157:21)
+2024-04-03T17:54:45.945Z - error: Error occurred during reporter init: Error: listen EADDRINUSE: address already in use :::5488
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at C:\Users\lenovo\Desktop\test2\node_modules\@jsreport\jsreport-express\lib\main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (C:\Users\lenovo\Desktop\test2\node_modules\@jsreport\jsreport-express\lib\main.js:16:10)
+    at C:\Users\lenovo\Desktop\test2\node_modules\@jsreport\jsreport-express\lib\main.js:50:14
+    at Object.start (C:\Users\lenovo\Desktop\test2\node_modules\@jsreport\jsreport-express\lib\main.js:125:13)
+    at Object.<anonymous> (C:\Users\lenovo\Desktop\test2\node_modules\@jsreport\jsreport-express\lib\main.js:333:30)
+    at async ListenerCollection.fire (C:\Users\lenovo\Desktop\test2\node_modules\@jsreport\jsreport-core\lib\shared\listenerCollection.js:157:21)
+2024-04-14T13:39:36.467Z - error: Error when processing render request 1
+(because) could not find Chrome (ver. 122.0.6261.111). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npx puppeteer browsers install chrome`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\Maroua Cerine\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+Error: Could not find Chrome (ver. 122.0.6261.111). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npx puppeteer browsers install chrome`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\Maroua Cerine\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+  at ChromeLauncher.resolveExecutablePath (C:\Users\Maroua Cerine\OneDrive\Bureau\pdf-main\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ProductLauncher.js:285:27)
+  at ChromeLauncher.executablePath (C:\Users\Maroua Cerine\OneDrive\Bureau\pdf-main\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ChromeLauncher.js:196:25)
+  at ChromeLauncher.computeLaunchArguments (C:\Users\Maroua Cerine\OneDrive\Bureau\pdf-main\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ChromeLauncher.js:89:37)
+  at async ChromeLauncher.launch (C:\Users\Maroua Cerine\OneDrive\Bureau\pdf-main\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ProductLauncher.js:70:28)
+  at async createBrowser (C:\Users\Maroua Cerine\OneDrive\Bureau\pdf-main\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:105:26)
+  at async allocateBrowser (C:\Users\Maroua Cerine\OneDrive\Bureau\pdf-main\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:120:5)
+  at async getBrowser (C:\Users\Maroua Cerine\OneDrive\Bureau\pdf-main\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:23:30)
+  at async module.exports (C:\Users\Maroua Cerine\OneDrive\Bureau\pdf-main\node_modules\@jsreport\jsreport-chrome-pdf\lib\conversion.js:11:19)
+  at async execute (C:\Users\Maroua Cerine\OneDrive\Bureau\pdf-main\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:20:22)
+  at async C:\Users\Maroua Cerine\OneDrive\Bureau\pdf-main\node_modules\@jsreport\jsreport-chrome-pdf\lib\lazyRecipe.js:75:20
+  at async invokeRender (C:\Users\Maroua Cerine\OneDrive\Bureau\pdf-main\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5)
+  at async WorkerReporter._render (C:\Users\Maroua Cerine\OneDrive\Bureau\pdf-main\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+  at async C:\Users\Maroua Cerine\OneDrive\Bureau\pdf-main\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:227:24
+  at async processAndResponse (C:\Users\Maroua Cerine\OneDrive\Bureau\pdf-main\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=1n6cc5stla8c8ig, id=1n6cc5stla8c8ig
+2024-04-14T13:39:36.473Z - error: Rendering request 1 finished with error in 7196 ms rootId=1n6cc5stla8c8ig, id=1n6cc5stla8c8ig
+2024-04-14T13:40:27.424Z - error: Error when processing render request 1
+(because) could not find Chrome (ver. 122.0.6261.111). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npx puppeteer browsers install chrome`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\Maroua Cerine\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+Error: Could not find Chrome (ver. 122.0.6261.111). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npx puppeteer browsers install chrome`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\Maroua Cerine\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+  at ChromeLauncher.resolveExecutablePath (C:\Users\Maroua Cerine\OneDrive\Bureau\pdf-main\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ProductLauncher.js:285:27)
+  at ChromeLauncher.executablePath (C:\Users\Maroua Cerine\OneDrive\Bureau\pdf-main\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ChromeLauncher.js:196:25)
+  at ChromeLauncher.computeLaunchArguments (C:\Users\Maroua Cerine\OneDrive\Bureau\pdf-main\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ChromeLauncher.js:89:37)
+  at async ChromeLauncher.launch (C:\Users\Maroua Cerine\OneDrive\Bureau\pdf-main\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ProductLauncher.js:70:28)
+  at async createBrowser (C:\Users\Maroua Cerine\OneDrive\Bureau\pdf-main\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:105:26)
+  at async allocateBrowser (C:\Users\Maroua Cerine\OneDrive\Bureau\pdf-main\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:120:5)
+  at async getBrowser (C:\Users\Maroua Cerine\OneDrive\Bureau\pdf-main\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:23:30)
+  at async module.exports (C:\Users\Maroua Cerine\OneDrive\Bureau\pdf-main\node_modules\@jsreport\jsreport-chrome-pdf\lib\conversion.js:11:19)
+  at async execute (C:\Users\Maroua Cerine\OneDrive\Bureau\pdf-main\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:20:22)
+  at async C:\Users\Maroua Cerine\OneDrive\Bureau\pdf-main\node_modules\@jsreport\jsreport-chrome-pdf\lib\lazyRecipe.js:75:20
+  at async invokeRender (C:\Users\Maroua Cerine\OneDrive\Bureau\pdf-main\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5)
+  at async WorkerReporter._render (C:\Users\Maroua Cerine\OneDrive\Bureau\pdf-main\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+  at async C:\Users\Maroua Cerine\OneDrive\Bureau\pdf-main\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:227:24
+  at async processAndResponse (C:\Users\Maroua Cerine\OneDrive\Bureau\pdf-main\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=9b4qkblm0fdzdqa, id=9b4qkblm0fdzdqa
+2024-04-14T13:40:27.481Z - error: Rendering request 1 finished with error in 556 ms rootId=9b4qkblm0fdzdqa, id=9b4qkblm0fdzdqa
+2024-04-14T13:41:27.782Z - error: Error when processing render request 1
+(because) could not find Chrome (ver. 122.0.6261.111). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npx puppeteer browsers install chrome`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\Maroua Cerine\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+Error: Could not find Chrome (ver. 122.0.6261.111). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npx puppeteer browsers install chrome`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\Maroua Cerine\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+  at ChromeLauncher.resolveExecutablePath (C:\Users\Maroua Cerine\OneDrive\Bureau\pdf-main\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ProductLauncher.js:285:27)
+  at ChromeLauncher.executablePath (C:\Users\Maroua Cerine\OneDrive\Bureau\pdf-main\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ChromeLauncher.js:196:25)
+  at ChromeLauncher.computeLaunchArguments (C:\Users\Maroua Cerine\OneDrive\Bureau\pdf-main\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ChromeLauncher.js:89:37)
+  at async ChromeLauncher.launch (C:\Users\Maroua Cerine\OneDrive\Bureau\pdf-main\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ProductLauncher.js:70:28)
+  at async createBrowser (C:\Users\Maroua Cerine\OneDrive\Bureau\pdf-main\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:105:26)
+  at async allocateBrowser (C:\Users\Maroua Cerine\OneDrive\Bureau\pdf-main\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:120:5)
+  at async getBrowser (C:\Users\Maroua Cerine\OneDrive\Bureau\pdf-main\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:23:30)
+  at async module.exports (C:\Users\Maroua Cerine\OneDrive\Bureau\pdf-main\node_modules\@jsreport\jsreport-chrome-pdf\lib\conversion.js:11:19)
+  at async execute (C:\Users\Maroua Cerine\OneDrive\Bureau\pdf-main\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:20:22)
+  at async C:\Users\Maroua Cerine\OneDrive\Bureau\pdf-main\node_modules\@jsreport\jsreport-chrome-pdf\lib\lazyRecipe.js:75:20
+  at async invokeRender (C:\Users\Maroua Cerine\OneDrive\Bureau\pdf-main\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5)
+  at async WorkerReporter._render (C:\Users\Maroua Cerine\OneDrive\Bureau\pdf-main\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+  at async C:\Users\Maroua Cerine\OneDrive\Bureau\pdf-main\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:227:24
+  at async processAndResponse (C:\Users\Maroua Cerine\OneDrive\Bureau\pdf-main\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=hn86ge1q4b417mf, id=hn86ge1q4b417mf
+2024-04-14T13:41:27.785Z - error: Rendering request 1 finished with error in 846 ms rootId=hn86ge1q4b417mf, id=hn86ge1q4b417mf
